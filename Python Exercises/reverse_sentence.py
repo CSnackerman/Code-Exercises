@@ -22,7 +22,7 @@ print ("\n\n\t--- FORWARD ORDER ---")
 # counting for loop with reverse indexing
 print ('\n- counting for loop -')
 for i in range (number_of_words):
-    print (i, '|', sentence [i], sep='', end='  ')
+    print ( '[', i, ']', sentence [i], sep='', end='  ' )
 
 
 # automatic for loop
@@ -42,19 +42,19 @@ print ('\n\n\n\t--- REVERSE ORDER ---')
 # reverse indexing
 print ('\n- counting for-loop w/ reverse indexing -')
 for i in range (1, number_of_words + 1):
-    print (-i, '|', sentence [-i], sep='', end='  ')
+    print ( '[', -i, ']', sentence [-i], sep='', end='  ' )
 
 
 # keyword 'reversed'
-print ('\n\n- keyword \'reversed\' counting for loop -')
+print ('\n\n- keyword \'reversed\' counting for loop -' )
 for i in reversed (range (number_of_words)):
-    print (i, '|', sentence [i], sep='', end='  ')
+    print ( '[', i, ']', sentence [i], sep='', end='  ' )
 
 
 # advanced range
 print ('\n\n- advanced range arguments -')
 for i in range (number_of_words - 1, -1, -1):
-    print (i, '|', sentence [i], sep='', end='  ')
+    print ( '[', i, ']', sentence [i], sep='', end='  ' )
 
 
 
