@@ -1,3 +1,14 @@
+/* PREFACE */
+// Javascript gives you access to the DOM of an HTML file
+// (D)ocument (O)bject (M)odel
+// can be accessed by using the 'document' variable
+
+// e.g. document.body    * hint *
+
+
+
+
+
 /* EXERCISE 1 */
 
 // Instructions:
@@ -26,11 +37,15 @@
 
 /* EXERCISE 3 */
 
-// Instructions:
-// 1. Programmatically create an <h2> html element
-// 2. Set the innerHTML contents of the element to anything you like
-// 3. append it to the body of the html page
+// Creating HTML DOM elements programmatically
 
+// What is the .innerHTML property?
+
+// Instructions:
+// 1. Create a new variable called 'myElement'
+// 2. assign a new <h2> html element to 'myElement'
+// 3. Set the innerHTML contents of the element to anything you like
+// 4. append it to the body of the html page
 
 
 
@@ -47,9 +62,7 @@
 // 2.
 
 // Instructions:
-// 1. get the root element of the HTML file (body)
-// 2. console log it
-// 3. Use the inspector to view the element
+// 1. console log the body element of the HTML document
 
 
 
@@ -66,9 +79,7 @@
 //      e.g. 
 //          your_element.style.color = '#FFFFFF'
 //          your_element.style.fontSize = '100pt'
-//          your_element.style.borderStyle = 'solid orange 10px'
+//          your_element.style.border = 'solid orange 10px'
 
 // check here for more modifiable styles: 
 // https://www.w3schools.com/cssref/default.asp
-
-
